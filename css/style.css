@@ -1,0 +1,454 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter", sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+
+/* All Common CSS End */
+
+/* Header Part Start */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 15px;
+}
+.nav-link:hover{
+    color: #4756DF;
+}
+.contactBtn{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}    
+
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerOverly{
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom: 175px;
+}
+.bannerContent h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 60px;
+    
+}
+.bannerContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 227px;
+    margin-bottom: 40px;
+
+}
+.bannerContent a{
+    padding: 20px 45px;
+    border-radius: 10px;
+    background: #6A4DF4;
+    color: #fff;
+
+}
+/* Banner Part End */
+
+ /* Counter Part Start */
+ #counterPart{
+    padding-top: 170px;
+    padding-bottom: 80px;
+
+ }
+ .counterBg{
+    padding: 90px 0;
+    padding-left: 40px;
+    background: #E0FFF9;
+    border-radius: 20px;
+ }
+ .counterLeftItem h4{
+    font-size: 25px;
+    font-weight: 500;
+    color: #6A4DF4;
+ }
+ .counterLeftItem h3{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-right: 119px;
+    margin-top: 20px;
+    color: #151515;
+ }
+ .counterRightItem h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: #151515;
+ }
+ .counterRightItem p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #737373;
+    margin-top: 35px;
+ }
+
+
+/* Counter Part End */
+
+/* Service Part Start */
+#servicePart{
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.serviceHead{
+    margin-bottom: 55px;
+}
+.serviceHead h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 35px;
+}
+.serviceHead p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    margin-right: 4px;
+}
+.serviceText h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+.serviceText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+  
+}
+.serviceItem{
+    padding: 48px;
+    transition: .4s;
+}
+.serviceItem:hover{
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+border-radius: 20px;
+}
+
+/* Service Part End */
+
+/* Work Part Start */
+#workPart{
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+.workHeadPart{
+    margin-bottom: 55px;
+
+}
+.workHeadPart h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 35px;
+}
+.workHeadPart p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+    margin-right: 4px;
+}
+.workItem h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #151515;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    
+}
+.workItem p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 26px;
+}
+.workItem{
+    transition: .4s;
+}
+.workItem img{
+    width: 100%;
+}
+.workItem:hover{
+-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+/* Work Part End */
+
+/* Agence Part Start */
+#agencPart{
+     padding-top: 160px;
+     padding-bottom: 50px;
+}
+.agencHeadPart{
+    margin-bottom: 55px;
+}
+.agencHeadPart h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    line-height: normal;
+
+}
+.agencHeadPart p{
+    font-style: 16;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    margin-bottom: 130px;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+.agencItem h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    padding: 22px 0;
+
+}
+.agencItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    padding-right: 73px;
+    
+}
+.agencItemCmb{
+    margin-bottom: 88px;
+}
+/* Agence Part End */
+
+/*  Riview Part Start */
+#reviewPart{
+    padding-top: 50px;
+    padding-bottom: 235px;
+   
+}
+.reviewHead h3 {
+    color: #151515;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+
+.reviewHead p {
+    color: #737373;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 130px;
+   
+}
+.reviewItem i{
+    font-size: 80px;
+    color: #6A4DF4;
+    opacity: 50%;
+}
+.reviewItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    padding-bottom: 10px;
+    padding-right: 31px;
+
+}
+ .star{
+    color: #F9BD2C;
+    padding-bottom: 10px;
+ }
+
+.profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-top: 30px;
+}
+.profileText h4{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 120%;
+    color: #232323;
+}
+.profileText p{
+    font-size: 16px;
+    font-weight:400;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+.reviewItem {
+   transition: .4s;
+   padding: 40px;
+}
+.reviewItem:hover i{
+    opacity: 20%;
+}
+  
+.reviewItem:hover{
+    background:#F4EFEF;
+    border-radius: 30px;
+   
+}
+
+
+/*  Riview Part End */
+
+/* Contact Part Start */
+#contactPart{
+    padding-top: 170px;
+    padding-bottom: 130px;
+    background: #F3F3F3;
+    
+}
+.contactLeft h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #151515;
+    line-height:normal;
+    padding-bottom: 30px;
+    padding-top: 160px;
+}
+.contactLeft p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7B;
+    line-height:26px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.formHeader h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 30px;
+    
+}
+
+.contactRightPart{
+    background: #fff;
+    padding: 38px 43px 84px 43px;
+    border-radius: 20px;
+}
+.contactRightPart input{
+    padding: 15px;
+}
+.contactRightPart button{
+    width: 100%;
+    background: #6A4DF4;
+    padding: 15px;
+    transition: .5s;
+}
+.contactRightPart button:hover{
+    width: 100%;
+    background: #6A4DF4;
+    padding: 15px;
+}
+.myForm::placeholder {
+    color: #D0D0D0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+/* Contact Part End */
+
+/* Footer Part Start */
+#footerPart{
+    padding-top: 145px;
+    padding-bottom: 40px;
+}
+.footerText p{
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 67px;
+    margin-top: 35px;
+}
+.footerItem h3 {
+    color: #151515;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+/* By deafault, Bootstrap ol,ul get the padding-left:2rem, therefore, we need to make it 0 */
+.footerItem ul {
+    padding-left: 0;
+}
+.footerItem li a {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    transition: .4s;
+}
+.footerItem li a:hover{
+    color: #6A4DF4;
+}
+.footerBottomText p{
+    padding-top: 25px;
+    color: #D0D0D0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* Footer Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
+/* Header Part Start */
+/* Header Part End */
+
